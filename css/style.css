@@ -1,0 +1,281 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+/* .content{
+    margin-top: 100px;
+} */
+
+#card{
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.90);
+}
+
+.card-title{
+    font-weight: 100;
+    text-align: center;
+}
+
+#aboutSection{
+    justify-content: center;
+}
+
+.contentCard{
+    width: 40%;
+    display: flex;
+    margin-top: 5%;
+}
+
+.pfp{
+    border-radius: 50%;
+    margin-bottom: 25px;
+    height: 40%;
+    width: 40%;
+}
+
+.contCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    font-family: 'Pacifico', cursive;
+    margin: 25px 0;
+    color: #0b0751
+}
+
+.subTitle{
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+
+.post{
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 25px;
+    /* max-width: 500px; */
+}
+
+#portfolioCardsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: center;
+    gap: 1rem;
+    margin: 25px 0;
+}
+
+/* .portfolioCards{
+    cursor: pointer;
+} */
+
+hr{
+    width: 25%;
+}
+
+#btn-close{
+    box-sizing: content-box;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 5px 5px;
+    color: rgb(100, 100, 100);
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+#btn-close:hover{
+    background-color: #0b0751;
+    border-color: #0b0751;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.navBtn{
+    margin: 25px 10px;
+    padding: 0 15px;
+    border-radius: 20px;
+    background-color: #0b0751;
+    transition: all 0.2s linear;
+}
+
+.navBtn:hover{
+    background-color: #0C288B;
+}
+
+.navBtn p, .navBtn p:hover{
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    text-align: center;
+}
+
+.externalBtn{
+    display: block;
+    margin: 10px 10px;
+    border-radius: 20px;
+    background-color: #0b0751;
+    transition: all 0.2s linear;
+
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+    /* text-transform: lowercase; */
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    text-align: center;
+}
+
+.externalBtn:hover{
+    background-color: #0C288B;
+    color: white;
+}
+
+#homeIcon{
+    padding: 10px 10px;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+    color: white;
+    background-color: #0b0751;
+    border: 1px solid #0b0751;
+    border-radius: 50%;
+}
+
+#homeIcon:hover{
+    cursor: pointer;
+    background-color: #0C288B;
+    border-color: #0C288B;
+}
+
+.contactIcon{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 30px 17px;
+    color: #bbbbbb;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.contactIcon:hover{
+    color: #0b0751;
+    transition: all 0.2s linear;
+}
+
+.hidden{
+    display: none;
+}
+
+.modal{
+    background-color:rgba(0,0,0,0.4);
+    animation: opac 0.5s;
+}
+
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.notHidden{
+    display: block;
+    transition: opacity 0.15s linear;
+}
+
+.progrBar{
+    margin-bottom: 10px;
+}
+
+.progressContainer{
+    text-align: center;
+    margin: 0 50px;
+    margin-bottom: 25px;
+}
+
+#progress-bar[value]{
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#progress-bar[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(88, 88, 88, 0.25) inset;
+}
+
+#progress-bar[value]::-webkit-progress-value {
+    background-color: #0b0751;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(88, 88, 88, 0.25) inset;
+}
+
+@media (min-width: 0) and (max-width: 1000px) {
+    .contentCard{
+        width: 100%;
+    }
+
+    .navbar{
+        display: block;
+    }
+
+    .navBtn{
+        display: block;
+    }
+
+    #card{
+        border: none;
+    }
+
+    .progressContainer{
+        text-align: center;
+        margin: 0 5px;
+        margin-bottom: 25px;
+    }
+
+    #portfolioCardsContainer{
+        display: grid;
+        grid-template-columns: repeat(1, 80%);
+    }
+}
+
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+    .contentCard{
+        width: 70%;
+    }
+
+    .navbar{
+        display: block;
+    }
+
+    .navBtn{
+        display: block;
+    }
+
+    #portfolioCardsContainer{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 40%);
+    }
+}
+
+@media (min-width: 1301px) and (max-width: 1700px) {
+    .contentCard{
+        width: 50%;
+    }
+}
