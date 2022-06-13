@@ -20,7 +20,7 @@ let projects = [
             banner: "./images/uganda_unexplored_banner.png",
             screenshot: "./images/uganda_unexplored_screenshot.png"
         },
-        description:    "A 2nd year school team project in collaboration with Q42 as our client. The Unity Uganda Unexplored is a serious game that highlights the cultural differences between western countries like The Netherlands and third-world countries like Uganda. The story is based on player's choices, so decide carefully what your outcome will be! ",
+        description:    "A 2nd year school team project in collaboration with Q42 as our client. The Unity game Uganda Unexplored is a serious game that highlights the cultural differences between western countries like The Netherlands and third-world countries like Uganda. The story is based on player's choices, so decide carefully what your outcome will be! ",
         tags: "Conceptualize Serious Gaming, Programing Back-end Programing, Level Designing, Testing",
         url: { 
             demo: "https://youtu.be/ampxd0UnGoM",
