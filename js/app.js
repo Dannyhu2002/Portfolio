@@ -2,15 +2,54 @@ window.addEventListener('load', init)
 
 let projects = [
     {
-        name: "Cube Run",
+        name: "Reservervationsystem Wok'n Sushi",
         image: {
-            banner: "./images/cube_run_banner.png",
-            screenshot: "./images/game_screenshot.png"
+            banner: "./images/reservation_banner.png",
+            screenshot: "./images/reservation_screenshot.png"
         },
-        description:    "The Unity game Cube Run is a side project made by myself (not a school project). The game where you play as a cube, you can jump and fly. The goal is to reach the end to unlock levels, but watch out for obstacles along your way!",
-        tags: "Developing, Front-end and Back-end programming, Game Designing, Level Designing, Testing",
+        description:    "A vanilla full-stack based PHP CRUD system to make a table reservation for Wok 'N Sushi. Made in PHP with MySQL database.",
+        tasks: "School assignment, Developing, Front-end & Back-end programming, Designing, Testing",
         url: { 
-            demo: "https://youtu.be/j4cxqpAef8w",
+            showcase: "",
+            app: ""
+        }
+    },
+    {
+        name: "The Bottled Curse",
+        image: {
+            banner: "./images/bottled_banner.png",
+            screenshot: "./images/bottled_screenshot.png"
+        },
+        description:    "A 2D Typescript game made in Phaser. The goal: you are a pirate and end up on an island where you have to collect coins and defeat enemies to eventually catch your ship before it leaves.",
+        tasks: "School team project, Developing, Front-end and Back-end programming, Game Designing, Level Designing, Testing",
+        url: { 
+            showcase: "https://youtu.be/cojcz-CY_TE?si=j89xWEjxgfe0SaTS",
+            app: "https://thesas99.github.io/The-Bottled-Curse/"
+        }
+    },
+    {
+        name: "Laravel PHP CRUD System",
+        image: {
+            banner: "./images/laravel_banner.png",
+            screenshot: "./images/laravel_screenshot.png"
+        },
+        description:    "A full-stack Laravel PHP CRUD System for food magazine. Made in Laravel PHP with MySQL database.  ",
+        tasks: "School assignment, Developing, Front-end & Back-end programming",
+        url: { 
+            showcase: "",
+            app: ""
+        }
+    },
+    {
+        name: "Notes full-stack React Webapp",
+        image: {
+            banner: "./images/notes_banner.png",
+            screenshot: "./images/notes_screenshot.png"
+        },
+        description:    "A Full-stack React JS webapp for taking notes. Made in React Javascript wtih MongoDB database.",
+        tasks: "School assignment, Developing, Front-end and Back-end programming",
+        url: { 
+            showcase: "",
             app: ""
         }
     },
@@ -21,10 +60,75 @@ let projects = [
             screenshot: "./images/uganda_unexplored_screenshot.png"
         },
         description:    "A 2nd year school team project in collaboration with Q42 as our client. The Unity game Uganda Unexplored is a serious game that highlights the cultural differences between western countries like The Netherlands and third-world countries like Uganda. The story is based on player's choices, so decide carefully what your outcome will be! ",
-        tags: "Conceptualize Serious Gaming, Programing Back-end Programing, Level Designing, Testing",
+        tasks: "School team project, Conceptualize Serious Gaming, Front-end & Back-end Programing, Level Designing, Testing",
         url: { 
-            demo: "https://youtu.be/ampxd0UnGoM",
+            showcase: "https://youtu.be/ampxd0UnGoM",
             app: ""
+        }
+    },
+    {
+        name: "Trash Predictor",
+        image: {
+            banner: "./images/trash_banner.png",
+            screenshot: "./images/trash_screenshot.png"
+        },
+        description:    "A 2nd year school team project as a semi-start-up company where we focus on sustainability in Rotterdam. The app aims to reduce litter in Rotterdam through Artificial Intelligence. This app is made in Angular JS and Ionic with ML5 Machine Learning. ",
+        tasks: "School team project, Prototyping, User Research, Developing, Front-end & Back-end Programing, Testing",
+        url: { 
+            showcase: "https://drive.google.com/file/d/1jf6tkDSCGG2kqdWRt2lZuABof-zzSxpm/view?usp=sharing",
+            app: ""
+        }
+    },
+    {
+        name: "Boba Finder React Native app",
+        image: {
+            banner: "./images/boba_banner.png",
+            screenshot: "./images/boba_screenshot.png"
+        },
+        description:    "A Expo React Native app to locate a couple of boba places around Rotterdam.",
+        tasks: "School assignment, Developing, Front-end & Back-end programming",
+        url: { 
+            showcase: "",
+            app: ""
+        }
+    },
+    {
+        name: "Lands of Magic Intern Project",
+        image: {
+            banner: "./images/lands_banner.png",
+            screenshot: "./images/lands_screenshot.png"
+        },
+        description:    "A startup product that was still in beta at the time. It is a mobile game that is similar to a well-known mobile game called Clash of Clans. And as an intern I helped them to develop the mobile game.",
+        tasks: "Internship project, Mobile Game developing, Front-end & Back-end Programing, Game Designing, Testing",
+        url: { 
+            showcase: "",
+            app: "https://play.google.com/store/apps/details?id=com.CraftiPlays.UnityDevelopment&hl=en_US"
+        }
+    },
+    {
+        name: "Cube Run",
+        image: {
+            banner: "./images/cube_run_banner.png",
+            screenshot: "./images/game_screenshot.png"
+        },
+        description:    "The Unity game Cube Run was first a side project made by myself and later on a school project. The game where you play as a cube, you can jump and fly. The goal is to reach the end to unlock new levels, but watch out for obstacles along your way!",
+        tasks: "Hobby Project, School Project, Developing, Front-end and Back-end programming, Game Designing, Level Designing, Testing",
+        url: { 
+            showcase: "https://youtu.be/j4cxqpAef8w",
+            app: "https://dannyhu2002.itch.io/cube-run-mobile-beta"
+        }
+    },
+    {
+        name: "Remobility IUXD Minor Project",
+        image: {
+            banner: "./images/minor_banner.png",
+            screenshot: "./images/minor_screenshot.png"
+        },
+        description:    "A UX design minor school team project where we are assigned by Fox Connect to create an interface design for the IP-Car. The IP-Car is a remotely controllable toy car that offers people with disabilities (MS patients) the opportunity to experience the outdoors (such as parks, forests, beaches, etc.) again (with their loved ones) without all their wheelchair difficulties. In addition, a React Front-end web app is also developed to better link the interface design with the IP-Car.",
+        tasks: "Minor team project, User Research, User Interface, User Experience, Creative technologies and Prototyping, Visual and Interaction Designing, Front-end Programming",
+        url: { 
+            showcase: "",
+            app: "https://www.figma.com/proto/JlpotDCEhHfIYF6gLl9rZN/Team-Prime?type=design&node-id=1496-1846&t=XwHmxgzdXOcqJOnz-1&scaling=min-zoom&page-id=548%3A469&starting-point-node-id=1496%3A1903&show-proto-sidebar=1&mode=design"
         }
     }
 ]
@@ -76,9 +180,9 @@ function showDetails(project){
     modalDescription = document.getElementById("modalDescription")
     modalDescription.innerText = projects[project].description
 
-    //project tags/tasks
+    //project tasks
     modalFooter = document.getElementById("modalFooter")
-    modalFooter.innerText = `Tasks: ${projects[project].tags}`
+    modalFooter.innerText = `Tasks: ${projects[project].tasks}`
     
     //content is default hidden, so add new class to display block
     modal.classList.add("notHidden")
@@ -122,11 +226,11 @@ function createPortfolio(){
 
         //link to demo vid
         let pDemo = document.createElement('a')
-        pDemo.href = project.url.demo
+        pDemo.href = project.url.showcase
         pDemo.setAttribute('target', '_blank')
         pDemo.innerText = "Video"
         pDemo.classList.add('externalBtn')
-        if(project.url.demo == ""){
+        if(project.url.showcase == ""){
             pDemo.classList.add('hidden')
         }
 
