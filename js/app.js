@@ -106,6 +106,19 @@ let projects = [
         }
     },
     {
+        name: "OasenPlusPlus",
+        image: {
+            banner: "./images/oasen_banner.png",
+            screenshot: "./images/oasen_screenshot.png"
+        },
+        description:    "A 3rd year school team project in collaboration with the drinking water company Oasen in Gouda, Netherlands as our client. This React Native mobile app educates people the process of purifying water to drinking water from the tap in a fun and interactive way with AR technology and 3D models. ",
+        tasks: "School team project, Prototyping, User Research, Developing, Front-end & Back-end Programing, AR technology implementation, 3D Blender models, Testing",
+        url: { 
+            showcase: "",
+            app: ""
+        }
+    },
+    {
         name: "Cube Run",
         image: {
             banner: "./images/cube_run_banner.png",
@@ -127,8 +140,8 @@ let projects = [
         description:    "A UX design minor school team project where we are assigned by Fox Connect to create an interface design for the IP-Car. The IP-Car is a remotely controllable toy car that offers people with disabilities (MS patients) the opportunity to experience the outdoors (such as parks, forests, beaches, etc.) again (with their loved ones) without all their wheelchair difficulties. In addition, a React Front-end web app is also developed to better link the interface design with the IP-Car.",
         tasks: "Minor team project, User Research, User Interface, User Experience, Creative technologies and Prototyping, Visual and Interaction Designing, Front-end Programming",
         url: { 
-            showcase: "",
-            app: "https://www.figma.com/proto/JlpotDCEhHfIYF6gLl9rZN/Team-Prime?type=design&node-id=1496-1846&t=XwHmxgzdXOcqJOnz-1&scaling=min-zoom&page-id=548%3A469&starting-point-node-id=1496%3A1903&show-proto-sidebar=1&mode=design"
+            showcase: "https://youtu.be/Yy0Xhldoq1k?si=lwM4OCGp4CUVwF7m",
+            app: "https://koen-benne.github.io/remobility-app/"
         }
     }
 ]
